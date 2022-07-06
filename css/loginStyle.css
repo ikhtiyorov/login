@@ -1,0 +1,212 @@
+@import url('http://fonts.cdnfonts.com/css/poetsen-one');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;400&family=Roboto:wght@100;400;500;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 518px;
+    height: 471px;
+    left: 461px;
+    top: 234px;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+
+/*.form1{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}*/
+.form1 {
+    margin-top: 40px;
+    margin-bottom: 67.77;
+
+}
+
+.blok {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 518px;
+    height: 49px;
+    left: 461px;
+    top: 274px;
+}
+
+h2 {
+    width: 229px;
+    height: 29px;
+    font-family: 'Poetsen One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: flex-end;
+    color: rgba(0, 0, 0, 0.65);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.span1 {
+    margin-left: 3px;
+    color: #0078F0;
+}
+
+.blok1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 518px;
+    height: 36px;
+    left: 461px;
+    top: 347px;
+    margin-left: 588;
+    margin-right: 588;
+}
+
+.p1 {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.blok2,
+.blok3 {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 118.25px;
+    margin-right: 118.25px;
+    margin-bottom: 34px;
+    width: 281.5px;
+    height: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #333333;
+}
+
+.blok2 p {
+    width: 50px;
+    height: 17px;
+    left: 118.75px;
+    top: 4.5px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #333333;
+}
+
+input {
+    width: 289px;
+    height: 17px;
+    left: 118.25px;
+    top: 33.55px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    color: rgba(0, 0, 0, 0.54);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.44);
+    padding-bottom: 5px;
+
+}
+
+.blok4 {
+    margin-top: 30px;
+    margin-left: 44px;
+    margin-left: 44px;
+    margin-bottom: 67.7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 8px;
+    width: 430px;
+    height: 46.23px;
+    left: 505px;
+    top: 591px;
+    background: #0078F0;
+    border: 0;
+    border-radius: 5px;
+}
+
+button {
+    width: 60px;
+    height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.46px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.blok2 input {
+    background: transparent url(img/person.svg) no-repeat right center;
+    background-size: 24px;
+}
+
+.password {
+    position: relative;
+}
+
+.password-control {
+    position: absolute;
+    top: 1px;
+    right: -8px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 10px;
+    background: url(img/no-view.svg) 0 0 no-repeat;
+    background-size: 24px;
+}
+
+.password-control.view {
+    background: url(img/view.png) 0 0 no-repeat;
+}
+
+button:hover,
+button:focus,
+button:active {
+    background-color: #0862bb;
+}
+
+.input::placeholder {
+    color: rgba(0, 0, 0, 0.54);
+}

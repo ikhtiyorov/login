@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/loginStyle.css">
+</head>
+
+<body>
+    <form id="form1" action="#" method="get">
+        <div class="form1">
+            <div class="blok">
+                <h2>Bem vindos ao <span class="span1">Login</span></h2>
+            </div>
+            <div class="login1">
+                <div class="blok1">
+                    <p class="p1">Preencha os dados do login para acessar</p>
+                </div>
+                <div class="blok2">
+                    <p>Usuário</p>
+                    <input class="input" type="text" placeholder="usuario">
+                </div>
+                <div class="blok3">
+                    <p>Senha</p>
+                    <div class="password">
+                        <input class="input" type="password" id="password-input" placeholder="senha" name="password">
+                        <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+                        <script>
+                            function show_hide_password(target) {
+                                var input = document.getElementById('password-input');
+                                if (input.getAttribute('type') == 'password') {
+                                    target.classList.add('view');
+                                    input.setAttribute('type', 'text');
+                                } else {
+                                    target.classList.remove('view');
+                                    input.setAttribute('type', 'password');
+                                }
+                                return false;
+                            }
+                        </script>
+                    </div>
+
+                </div>
+            </div>
+            <button class="blok4" type="submit" value="enter">entrar</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
